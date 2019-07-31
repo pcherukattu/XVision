@@ -221,7 +221,7 @@ public class MainActivity extends FragmentActivity{
                                 String k = "temp";
                                 k.replaceAll(" ", "_");
                                     Log.d(TAG,"the wiki function is called");
-                                String s1 = wikimedia.execute("Albert_Einstein").get();
+                                String s1 = wikimedia.execute("Albert_Einstein").get(); /* for testing*/
                                     Log.d(TAG, "in main " + s1);
                                 if (mainFrag2 == null) {
                                     mainFrag2 = new MainFrag2();

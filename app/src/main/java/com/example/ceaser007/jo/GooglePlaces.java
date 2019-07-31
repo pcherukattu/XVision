@@ -17,8 +17,8 @@ import java.util.ArrayList;
 @SuppressWarnings("deprecation")
 public class GooglePlaces {
     private String TAG = "com.android.joe2";
-    private static final String API_KEY ="AIzaSyDJXXErCiMhjWFWYYS5yWcOacYEjY-uud8";
-    private static final String SERVER_KEY= "AIzaSyDE9dj4rLNkE-BJegbVu-Gna8jboj4h0mE";                                             //"AIzaSyD2_kDK03xviGxxWBOZ0bE2MdKO20hMMuE";
+    private static final String API_KEY ="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    private static final String SERVER_KEY= "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
     private static final String PLACES_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/search/json?";
     private static final String PLACES_TEXT_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/search/json?";
     private static final String PLACES_DETAILS_URL = "https://maps.googleapis.com/maps/api/place/details/json?";
