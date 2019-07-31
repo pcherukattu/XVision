@@ -1,0 +1,2 @@
+# XVision
+An Android application developed using Microsoft Cognitive Services , MediaWiki, Google Maps and places APIs to assist the blind as a personal voice assistant. The application utilises images captured from the  mobile camera to detect places, people, emotions and actions and translates them to voice commands/directions (supported by Google  text to speech API). The application can also respond to general queries from the user (supported by Wikipedia) and also access maps and places all through voice commands.
