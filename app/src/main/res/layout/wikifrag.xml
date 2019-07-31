@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/txtSpeechInput1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+
+            android:id="@+id/matter1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSpeechInput1"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/did"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/matter1"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+
+
+            />
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/did"
+            android:clickable="true"
+            android:textColor="#FFFFFF"
+
+            >
+        </ListView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</FrameLayout>
+

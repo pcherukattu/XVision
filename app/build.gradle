@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.example.ceaser007.jo"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':jsoup-1.8.3')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'ai.api:sdk:1.9.0@aar'
+    compile 'com.google.code.gson:gson:2.3'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.google.android.gms:play-services-maps:8.4.0'
+
+    compile 'com.google.android.gms:play-services-analytics:8.4.0'
+    compile 'com.google.android.gms:play-services-location:8.4.0'
+    compile 'com.google.android.gms:play-services-nearby:8.4.0'
+    compile 'com.google.android.gms:play-services-measurement:8.4.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile 'com.google.android.gms:play-services-auth:8.4.0'
+    compile 'com.microsoft.projectoxford:face:1.0.0'
+    compile 'com.microsoft.projectoxford:vision:1.0.354'
+    compile 'com.microsoft.projectoxford:emotion:1.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.15.0'
+    compile files('libs/microsoft-translator-java-api-0.6.1-jar-with-dependencies.jar')
+
+}
